@@ -1,9 +1,6 @@
-import Fade from './Fade'
 const Hero = () => {
   return (
     <div>
-        <Fade>
-
         <div className="card">
 		<div className="imgBox">
 			<div className="bark"></div>
@@ -25,7 +22,6 @@ const Hero = () => {
 			<p className="text-right">Daud</p>
 		</div>
 	</div>
-        </Fade>
     </div>
   )
 }
